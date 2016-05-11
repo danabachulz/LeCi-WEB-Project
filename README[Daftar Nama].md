@@ -1,4 +1,4 @@
-# WEB-Project
+# Leci-WEB-Project
 It is a students project for final exam <br>
 
 Name / NIM > Github ID <br>

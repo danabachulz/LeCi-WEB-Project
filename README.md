@@ -1,9 +1,19 @@
-# Leci-WEB-Project
-It is a students project for final exam <br>
+<h1>This file contains job list for every personel and Progress of the project</h1><br>
+<h1>File ini berisikan daftar tugas masing-masing anggota dan progress pengerjaan project:</h1><br>
+I Putu Desyanndana / 145314065 > danabachulz <br>
+Home & default html body design, css Style design, servlet design,JDBC cheacker,JDBC fixer (if needed)<br><br>
 
-Name / NIM > Github ID <br>
-I Putu Desyanndana      / 145314065 > danabachulz <br>
-I Wayan Sazwidka Okta   / 145314103 > wayans <br>
-Joni Rourensius         / 145314016 > jrsius <br>
+I Wayan Sazwidka Okta / 145314103 > wayans <br>
+SQL Database Table Management and Design, LoginForm Design,HTML Matkul, Servlet Design<br><br>
 
-=================== Thanks for Support ;) ===================
+Joni Rourensius / 145314016 > jrsius<br>
+Login Java Design, Servlet Design, Class Matkul, Detail MahaSiswa(Servlet or JSP)+Class Mahasiswa<br><br>
+
+<h1>Progress Day 1 (14-05-2016):</h1> Menyelesaikan Database Design & UML WEB Design<br>
+Personil Hadir : danabachulz,wayans,jrsius (Semua hadir)<br>
+Tugas Dikerjakan :<br>
+wayans      : Mencari contoh database design, merumuskan deign awal, dan menncari kekurangan design<br>
+jrsius      : Menggambar design awal, menambahkan kekurangan dalam design, dan mencari kekurangan design<br>
+danabachulz : Menggambar design secara digital, memperbaiki susunan design, dan mencari kekurangan design<br><br>
+
+<h1>Progress Day 2 (Unknown):</h1>Membuat UML Table, Memperbaiki dan Menanbahkan kekurangan dari design yang sudah dibuat<br>

@@ -24,5 +24,5 @@ jrsius      : Mencari contoh ERD Table di internet, Memperbaiki ER Table yang di
 danabachulz : Mengilustrasikan ERD Table kedalam bentuk digital, Menghubungkan Primary Key dengan Foreign Key<br><br>
 
 <h1>Progress Day 3 (Unknown):</h1>Membuat program dasar HML,Table Database,Servlet<br>
-Personil Hadir : danabachulz,wayans,jrsius (Semua hadir)<br>
+Personil Hadir : OnGoing<br>
 Tugas Dikerjakan :<br>

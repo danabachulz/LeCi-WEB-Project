@@ -16,4 +16,13 @@ wayans      : Mencari contoh database design, merumuskan deign awal, dan menncar
 jrsius      : Menggambar design awal, menambahkan kekurangan dalam design, dan mencari kekurangan design<br>
 danabachulz : Menggambar design secara digital, memperbaiki susunan design, dan mencari kekurangan design<br><br>
 
-<h1>Progress Day 2 (Unknown):</h1>Membuat UML Table, Memperbaiki dan Menanbahkan kekurangan dari design yang sudah dibuat<br>
+<h1>Progress Day 2 (17-05-2016):</h1>Membuat ERD Table, Memperbaiki dan Menanbahkan kekurangan dari design yang sudah dibuat<br>
+Personil Hadir : danabachulz,wayans,jrsius (Semua hadir)<br>
+Tugas Dikerjakan :<br>
+wayans      : Membuat ERD Table, Mencari Foreign Key Tabel<br>
+jrsius      : Mencari contoh ERD Table di internet, Memperbaiki ER Table yang dibuat wayans<br>
+danabachulz : Mengilustrasikan ERD Table kedalam bentuk digital, Menghubungkan Primary Key dengan Foreign Key<br><br>
+
+<h1>Progress Day 3 (Unknown):</h1>Membuat program dasar HML,Table Database,Servlet<br>
+Personil Hadir : danabachulz,wayans,jrsius (Semua hadir)<br>
+Tugas Dikerjakan :<br>

@@ -26,3 +26,6 @@ danabachulz : Mengilustrasikan ERD Table kedalam bentuk digital, Menghubungkan P
 <h1>Progress Day 3 (Unknown):</h1>Membuat program dasar HML,Table Database,Servlet<br>
 Personil Hadir : OnGoing<br>
 Tugas Dikerjakan :<br>
+wayans      : ?<br>
+jrsius      : ?<br>
+danabachulz : ?<br><br>

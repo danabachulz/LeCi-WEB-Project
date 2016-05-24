@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2016, 9:34:09 PM
+    Author     : dana
+*/
+
+body {
+    background-color:#b3b3ff;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    width: 225px;
+    background-color:  #00004d; /* warna dari opening kolom list*/
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+	right:0px;
+        top:0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #330d00;
+    color: white;
+}
+
+/*
+li a:hover:not(.active) {
+    background-color: #330d00;
+    color: #330d00;
+}*/
+
+container {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+
+one {
+    margin-left: inherit;
+}
+
+label{
+	margin:8px 10px;
+	color:white;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* melengkungkan kotak teks */
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 90%;
+    background-color: #ff531a ;
+    color: white;
+    padding: 14px 50px;
+    margin: 12px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:  #ff704d;
+}
+
+#section {
+    padding: 10px;
+	margin:25px;
+        background-color:white; /* warna dari opening kolom list*/
+        position: fixed;
+	right:250px;
+	left:25px;
+	top:10%;
+        height:79%;
+	border: 5px solid gray;
+	border-radius: 25px;
+}
+
+#headtext{
+    text-align: center;
+    right: 250px;
+}
+
+#kotak{
+    display: block;
+    color: white;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 2, 2016, 10:37:10 AM
+    Author     : dana
+*/
+body{
+    background-color: blue;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+#tombol{
+    position: absolute;
+    transition: .5s ease;
+    left: 45%;
+
+}
+input[type=submit] {
+    width: 10;
+    background-color: #ff531a ;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:  #ff704d;
+}

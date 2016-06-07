@@ -104,6 +104,11 @@ input[type=submit]:hover {
 	border-radius: 25px;
 }
 
+#ratatengah{
+    text-align: center;
+    
+}
+
 #headtext{
     text-align: center;
     right: 250px;

@@ -8,63 +8,69 @@
 <!DOCTYPE html>
 <html>
 
-     <head>
+    <head>
 
-          <title>Leci-KRS.web</title>
-		  <link rel="stylesheet" type="text/css" href="./css/style2.css">
-          <style>
-              td{
-                  color:white;
-                  width: 220px
-              }
-              table{
-                  border-radius: 10px;
-              }
-              </style>
-     </head>
+        <title>Leci-KRS.web</title>
+        <link rel="stylesheet" type="text/css" href="./css/style2.css">
+        <style>
+            td{
+                color:black;
+                width: 220px
+            }
+            table{
+                table-layout: fixed;
+                width: 100%;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
 
-     <body>
-         
-		  <div><ul>
-                          <li><div id="kotak"><img src="./gambar/ss.jpg" alt="Foto Mahasiswa / Admin" style="width:200px;height:200px;"></a></li>
+    <body>
+
+        <div><ul>
+                <li><div id="kotak"><img src="./gambar/a.JPG" alt="Foto Mahasiswa / Admin" style="width:200px;height:200px;"></a></li>
                         <li>
+                            <% String nima = (String) session.getAttribute("nomx");
+                                String nama = (String) session.getAttribute("namamhs");
+
+                            %>
                             <table border="1">
                                 <tbody>
                                     <tr>
-                                        <td>Nomor : <%=request.getParameter("nomor")%></td>
+                                        <td style="color:white;">Nomor : <% out.print(nima); %></td>
                                     </tr>
                                     <tr>
-                                        <td>Nama : <%=request.getParameter("nama")%></td>
+                                        <td style="color:white;">Nama : <% out.print(nama); %></td>
                                     </tr>
                                 </tbody>
                             </table>
 
                         </li>
-    </select>
-  <form action="logout">
-    <input type="submit" value="Logout">
-  </form>
-		  </ul>
-		  
-<!--		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-		  </script>
-		  
-		  <script>
-		  $(document).ready(function(){
-			$('#sidebar-btn').click(function(){
-				$('#sidebar').toggleClass('visible');
-			})
-		  })
-		  </script> -->
-                  
-                  <h1 id="headtext">KRS Online [LeCi Project]</h1>
-		  
-		  <div id="section">
-			<h1>Terimakasih telah melakukan KRS onlen<br>
-                        </h1>
-                        
-		  </div>
+                        </select>
+                        <form action="logout">
+                            <input type="submit" value="Logout">
+                        </form>
+            </ul>
 
-     </body>
+
+
+            <h1 id="headtext">KRS Online [LeCi Project]</h1>
+
+            <div id="section">
+                <table border="1">
+                    <h1>Mata Kuliah :</h1>
+                    <tbody>
+                        <% String tunderbird = (String) session.getAttribute("cetak");
+                            if (tunderbird != null || tunderbird != "null") {
+                                out.println(tunderbird);
+                            }
+                        %>
+                    </tbody>
+                </table>
+
+
+            </div>
+
+    </body>
 
 </html>

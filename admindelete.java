@@ -14,15 +14,13 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
-
 
 
 /**
  *
- * @author dana
+ * @author joni
  */
+
 public class admindelete extends HttpServlet {
 
 
@@ -30,23 +28,19 @@ public class admindelete extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         executepart2.query q=new executepart2.query();
-        String x=request.getParameter("hapus");
+        String h=request.getParameter("hapus");
         try{
-            ArrayList<sks> mk =q.hapusadmin(x);
-            ArrayList<sks> sh=q.showadmin();
-            ArrayList<lighttambahan> li=q.hapuslightning(x);
-            request.setAttribute("hapuslightning", li);
-            request.setAttribute("hapusadmin", mk);
-            request.setAttribute("showadmin", sh);            
+            ArrayList<sks> admin =q.hapusadmin(h);
+            ArrayList<sks> admin2=q.showadmin();
+            request.setAttribute("hapusadmin",admin);
+            request.setAttribute("showadmin", admin2);
             q.closeConn();
             request.getRequestDispatcher("/sudahloginad.jsp").forward(request, response);
         }
         catch(SQLException ex){
-            Logger.getLogger(panggil.class.getName()).log(Level.SEVERE,null,ex);
+            Logger.getLogger(admindelete.class.getName()).log(Level.SEVERE,null,ex);
         }
     }
-        
-    
 
     /**
      * Handles the HTTP <code>POST</code> method.

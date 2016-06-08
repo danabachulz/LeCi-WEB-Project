@@ -14,12 +14,15 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+
+
 
 /**
  *
  * @author joni
  */
-
 public class panggil extends HttpServlet {
 
 
@@ -27,10 +30,12 @@ public class panggil extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         executepart2.query q=new executepart2.query();
+        HttpSession session = request.getSession(true);
         try{
             ArrayList<MataKuliah> mk =q.makul();
             request.setAttribute("makul",mk);
             q.closeConn();
+            session.removeAttribute("cetak");
             request.getRequestDispatcher("/Home2.jsp").forward(request, response);
         }
         catch(SQLException ex){

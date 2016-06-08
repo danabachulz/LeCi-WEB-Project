@@ -5,6 +5,10 @@
  */
 package executepart2;
 
+/**
+ *
+ * @author dana
+ */
 public class Mahasiswa {
     String nim,nama,prodi;
 
